@@ -5,10 +5,10 @@ import streamlit as st
 st.set_page_config(page_title="タイトル", layout="wide")
 
 # タイトルを設定
-st.title('Streamlitのサンプルアプリ')
+st.title('齊藤諒真')
 
 # テキスト入力ボックスを作成し、ユーザーからの入力を受け取る
-user_input = st.text_input('あなたの名前を入力してください')
+user_input = st.time_input('あなたの名前を入力してください')
 
 # ボタンを作成し、クリックされたらメッセージを表示
 if st.button('挨拶する'):
