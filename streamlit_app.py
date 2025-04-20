@@ -14,7 +14,7 @@ st.write(user_input)
 atr= [1,2,3]
 atr_list = st.selectbox("アトラクションを選択",atr)
 day=['月','火','水','木','金','土','日']
-day_list = st.selectbox('曜日を選択'day)
+day_list = st.selectbox('曜日を選択',day)
 # ボタンを作成し、クリックされたらメッセージを表示
 if st.button('挨拶する'):
     if user_input:  # 名前が入力されているかチェック
